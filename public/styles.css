@@ -34,7 +34,7 @@ h2 {
 }
 
 .inner-wrapper {
-    background-image: url(background.jpg);
+    background-image: url(images/background2.jpg);
     background-size: 500vw 100vh; 
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -51,4 +51,8 @@ h2 {
     flex-shrink: 0;
     transition: background-color 0.3s;
     background-color: transparent;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
